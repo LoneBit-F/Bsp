@@ -1,1 +1,1 @@
-# Bsp
+Zur Wettbewerbsseite: [https://hiddengems.gymnasiumsteglitz.de/](https://hiddengems.gymnasiumsteglitz.de/)

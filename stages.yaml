@@ -1,0 +1,81 @@
+stage-0@0.1:
+    title: System Check
+    from: '2025-10-06'
+    generator: arena
+    width: 19
+    height: 19
+    emit_signals: false
+    vis_radius: 100
+    gem_spawn_rate: 0.05
+stage-0@0.2:
+    title: System Check
+    from: '2025-11-03'
+    generator: arena
+    width: 19..39
+    height: 19
+    max_gems: 1..5
+    emit_signals: false
+    vis_radius: 100
+    gem_spawn_rate: 0.04..0.06
+stage-1@0.1:
+    title: Training Grounds
+    from: '2025-11-17'
+    generator: cellular
+    width: 29
+    height: 19
+    max_gems: 1
+    emit_signals: false
+    vis_radius: 100
+    gem_spawn_rate: 0.05
+stage-1@0.2:
+    title: Training Grounds
+    from: '2025-12-22'
+    width: 29..39
+    height: 19
+    generator: cellular
+    max_gems: 1..5
+    emit_signals: false
+    vis_radius: 100
+    gem_spawn_rate: 0.04..0.06
+stage-2@0.1:
+    title: Dark Signal
+    from: '2026-01-05'
+    generator: cellular
+    width: 49
+    height: 29
+    max_gems: 2..3
+    emit_signals: true
+    signal_radius: 5..10
+    vis_radius: 5..15
+    gem_spawn_rate: 0.05
+    max_ticks: 1200
+stage-3@0.1:
+    title: Resonance
+    from: '2026-02-09'
+    generator: cellular
+    width: 39..49
+    height: 29
+    max_gems: 3..7
+    emit_signals: true
+    emit_signal_channels: true
+    signal_radius: 5..10
+    vis_radius: 5..15
+    signal_noise: 0.01..0.025
+    signal_fade: 5..10
+    gem_spawn_rate: 0.05
+    max_ticks: 1200
+stage-3@0.2:
+    title: Resonance
+    from: '2026-02-17'
+    generator: cellular
+    width: 39..49
+    height: 29
+    max_gems: 3..7
+    emit_signals: true
+    emit_signal_channels: true
+    signal_radius: 5..10
+    vis_radius: 3..7
+    signal_noise: 0.01..0.025
+    signal_fade: 5..10
+    gem_spawn_rate: 0.05
+    max_ticks: 1200
